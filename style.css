@@ -1,0 +1,39 @@
+body{
+    margin:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width:150px; 
+    box-shadow: 5px 5px 5px;
+
+}
+
+.card{
+border-bottom: #240046 6px solid;
+border-radius: 20px;
+background-color: #cbaffe;
+width:400px;
+margin: 0px auto;
+padding:20px;
+display:flex;
+justify-content:space-around;
+}
+
+.border{
+    
+    text-align: center;
+    color:#2b2839;
+}
+
+h3:hover{
+color: #ede5fa;
+}
+
+@keyframes anime{
+    from{color:#240046;}
+    to{color:#cbaffe};
+}
+h3{
+    animation-name: anime;
+    animation-duration:3s;
+}
